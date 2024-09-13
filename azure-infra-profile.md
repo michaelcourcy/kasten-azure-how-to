@@ -48,6 +48,7 @@ You will need also the subscription and the resource group name
 echo $SUBSCRIPTION
 echo $RESOURCE_GROUP
 ```
+You must provide this 5 informations to complete the profile.
 
 ## Case 2 Service principal with the name $RESOURCE_GROUP already exist 
 
