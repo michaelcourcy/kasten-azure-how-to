@@ -81,20 +81,3 @@ echo $RESOURCE_GROUP
 ```
 
 You must provide this 5 informations to complete the profile.
-
-# Openshift on Azure
-
-oc get ns default -ojsonpath='{.metadata.uid}'
-
-I you are using openshift you'll have to make sure that dashboard, 
-executor and aggregatedapis can have access to the hostnetwork 
-```
-services:
-  dashboardbff:
-    hostNetwork: true
-  executor:
-    hostNetwork: true
-  aggregatedapis:
-    hostNetwork: true
-```
-
